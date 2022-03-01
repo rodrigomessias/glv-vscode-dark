@@ -1,0 +1,36 @@
+{
+    "name": "glv-dark",
+    "publisher": "rodrigomessias",
+    "displayName": "glv dark",
+    "description": "glv's vscode theme, dark",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rodrigomessias/glv-vscode-dark"
+    },
+    "keywords": [
+        "glv",
+        "dark",
+        "c++",
+        "visual studio",
+        "visual studio 2007",
+        "messias",
+        "rodrigo messias",
+        "glv dark"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "glv dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/glv-dark-theme.json"
+            }
+        ]
+    }
+}
